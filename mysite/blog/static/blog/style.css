@@ -1,0 +1,41 @@
+
+.container {
+	background: #e0bdb0;
+	height: 69px;
+}
+
+.conteiner {
+	background-image: url("images/amst.png");
+	background-size: cover;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	padding: 25px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: rgb(202, 129, 87);
+}
+
+lu a {
+	display: block;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	padding: 25px 16px;
+	text-decoration: none;
+} 
