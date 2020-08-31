@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="{% static 'blog/style.css' %}">
 </head>
 <body>
-    <div class="img">
         <header id="header" class="container">
             <nav class="navbar">
                 <a class="navbar-brend" href=""></a>
             </nav>
             <ul class="navbar-buttoms">
-                <lu style="float:left"><a class="active" href="about">Ann</a></lu>
+                <li style="float:left"><a class="active" href="about">Ann</a></li>
                 <li><a class="nav-link" href="#">Contact</a></li>
                 <li><a class="nav-link" href="/portfolio">Portfolio</a></li>
                 <li><a class="nav-link" href="/">Home</a></li>
             </ul>
         </header>
+        <div class="body">
         {% block content  %}
         {% endblock %}
-    </div>
+        </div>
     <footer></footer>
 </body>
 </html>
